@@ -96,26 +96,24 @@ weight:
   hotness_weight: 0.1 # 热度权重
 
 # name 可以定义任意名称，只具有显示作用，即使项目运行了几天后，忽然改掉 name 也不会影响代码的正常运行
+# ================== 终极精简平台配置（只留最硬核的）==================
 platforms:
-  - id: "toutiao"
-    name: "今日头条"
-  - id: "baidu"
-    name: "百度热搜"
-  - id: "wallstreetcn-hot"
-    name: "华尔街见闻"
-  - id: "thepaper"
-    name: "澎湃新闻"
-  - id: "bilibili-hot-search"
-    name: "bilibili 热搜"
-  - id: "cls-hot"
-    name: "财联社热门"
-  - id: "ifeng"
-    name: "凤凰网"
-  - id: "tieba"
-    name: "贴吧"
-  - id: "weibo"
-    name: "微博"
-  - id: "douyin"
-    name: "抖音"
-  - id: "zhihu"
-    name: "知乎"
+  - twitter          # X（推特）——币圈/大佬金句
+  - youtube          # YouTube——JRE、Lex Fridman、All-In 等
+  - reddit           # Reddit 加密货币、美股、创业
+  - rss              # 重点！36氪、雪球、虎嗅、Substack、pg、央行、CNBC 全靠它
+  - bilibili         # 保留少量中字搬运（很多访谈只有B站有字幕）
+
+# 推送更优雅（强烈推荐改这几行）
+max_news_per_run: 15
+report_mode: daily                    # 每天早上发一份汇总（不吵人）
+push_time_window: "07:00-23:00"       # 你醒着的时间段都行
+enable_regex: true                    # 必须开！配合 frequency_words.txt 的正则过滤
+
+# 时间窗口控制（可选，你要是怕半夜被吵就打开）
+push_window:
+  enabled: false                      # 改成 true 就只在指定时间推
+  time_range:
+    start: "07:00"
+    end: "23:00"
+  once_per_day: true

@@ -1,0 +1,50 @@
+# 国内最优质三家
+https://36kr.com/feed
+https://xueqiu.com/hs/news.xml
+https://www.huxiu.com/rss/1.xml
+https://www.caixin.com/feed
+https://www.yicai.com/rss
+
+# 中国宏观经济（只抓最干净的官方/机构源）
+https://www.pbc.gov.cn/rss/goutongjiaoliu.xml      # 央行
+https://www.ndrc.gov.cn/rss/xwfb.xml               # 发改委
+https://www.stats.gov.cn/rss/sjzx.xml              # 统计局
+
+# 美股最硬核实时+深度
+https://www.cnbc.com/id/100003114/rss
+https://www.cnbc.com/id/10001147/rss
+https://seekingalpha.com/api/v3/articles.rss
+https://www.zerohedge.com/rss
+https://www.barrons.com/rss
+https://www.marketwatch.com/rss/topstories
+
+# 全球顶级财经新闻
+https://www.ft.com/rss
+https://www.bloomberg.com/feed/rss
+https://coindesk.com/feed
+https://cointelegraph.com/rss
+
+# 投资大师 & 富爸爸
+https://www.richdad.com/blog/feed
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZ4AMrDcNrfy3X6nsU8-rPg   # PowerfulJRE
+
+# 顶级成长/商业/科技播客 & YouTube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCL_f53ZEJxp8TtlOkHwMV9Q   # Lex Fridman
+https://www.youtube.com/feeds/videos.xml?channel_id=UCs0ifVJ_R6axMi5bw5E1mJg   # All-In Podcast
+https://www.youtube.com/feeds/videos.xml?channel_id=UCq6VFHwMzcMXbQ5B0_J7eIA   # Dwarkesh Patel
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJ8R8WULp9Y5-Rk4f5f5K5g   # Tim Ferriss
+https://www.youtube.com/feeds/videos.xml?channel_id=UCX6OQ3DkcsbYNE6H8uQQuVA   # MrBeast
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZ9x1tRtu5jY2Z4l2Z3Z4wQ   # Andrew Huberman
+
+# 顶级投资机构 & 个人
+https://ark-invest.com/feed
+https://a16z.com/feed
+https://paulgraham.com/feed                 # Paul Graham（重复加一次保险）
+https://nav.al/rss
+
+# 顶级 Substack
+https://www.lennysnewsletter.com/feed
+https://www.every.to/feed
+https://www.noahpinion.blog/feed
+https://www.bitsaboutmoney.com/feed
+https://www.readmargins.com/feed

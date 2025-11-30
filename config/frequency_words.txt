@@ -1,113 +1,30 @@
-胖东来
-于东来
+# 永久屏蔽政治、战争、内政、外交口水（放在最上面优先级最高）
+!特朗普 !Trump !拜登 !Biden !哈里斯 !以色列 !加沙 !哈马斯 !伊朗 !俄乌 !乌克兰 !Russia !普京
+!台海 !台湾 !台独 !大陆 !两岸 !武统 !香港 !新疆 !西藏 !人权 !民主 !抗议 !示威
+!制裁 !关税 !贸易战 !脱钩 !习近平 !中共 !政治局 !枪击 !暗杀 !爆炸 !恐怖袭击 !战争 !冲突
+!称 !回应 !警告 !谴责 !召见 !巴以 !中东 !胡塞 !选举 !大选 !共和党 !民主党
 
-DeepSeek
-梁文锋
+# 正则万能灭（配合上面 enable_regex: true）
+^.*(美|中|俄|以|乌|台|朝|伊|巴).{0,15}(冲突|紧张|对峙|危机|战争|入侵|制裁|封锁|军演|导弹|核武).*$
 
-华为
-鸿蒙
-HarmonyOS
-任正非
+# 核心关键词（命中才推）
+比特币 OR Bitcoin OR BTC OR ETH OR Solana OR Crypto OR 币圈
+美股 OR 纳斯达克 OR 标普 OR 道指 OR S&P500 OR Nasdaq OR AAPL OR NVDA OR TSLA
+美联储 OR FOMC OR 鲍威尔 OR Fed OR 利率决议 OR 财报 OR earnings
+GDP OR CPI OR PMI OR 社融 OR M2 OR 央行 OR 降准 OR LPR OR 人民币汇率
+36氪 OR 雪球 OR 虎嗅 OR 财新 OR 第一财经
+清崎 OR 富爸爸 OR "Rich Dad" OR Kiyosaki
+Joe Rogan OR JRE OR PowerfulJRE OR Lex Fridman OR All-In OR Tim Ferriss
+Naval OR paulgraham OR pg OR a16z OR Cathie Wood OR ARK
+个人成长 OR 认知觉醒 OR 复利 OR 长期主义 OR 创业 OR 投资 OR 访谈 OR podcast
 
-比亚迪
-王传福
+# 必须包含
++投资 OR +创业 OR +成长 OR +访谈 OR +宏观 OR +美股 OR +货币政策
 
-大疆
-DJI
+# 数量控制（中国宏观故意压最低）
+@3 中国宏观
+@15 美股 OR 币圈
+@12 成长 OR 访谈 OR 创业
 
-宇树
-王兴兴
-
-智元
-灵犀
-稚晖君
-彭志辉
-
-黑神话
-冯骥
-
-影之刃零
-梁其伟
-
-哪吒
-饺子
-杨宇
-!车
-!餐
-
-三体
-流浪地球
-刘慈欣
-郭帆
-
-申奥
-
-京东
-刘强东
-
-字节
-bytedance
-张一鸣
-
-特斯拉
-马斯克
-
-微软
-Microsoft
-
-英伟达
-NVIDIA
-黄仁勋
-
-AMD
-
-谷歌
-google
-gemini
-deepmind
-
-chatgpt
-openai
-sora
-
-claude
-Anthropic
-
-iphone
-ipad
-mac
-ios
-
-ai
-!gai
-人工智能
-
-自动驾驶
-
-机器人
-
-国产
-中国
-
-美国
-日本
-韩国
-
-芯片
-光刻机
-
-科技
-
-核能
-
-水电站
-雅鲁藏布江
-
-新质生产力
-
-月球
-登月
-火星
-宇宙
-飞船
-航空
+# 最多15条，干净清爽
+@15
